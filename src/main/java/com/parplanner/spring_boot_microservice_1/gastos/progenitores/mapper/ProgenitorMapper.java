@@ -8,7 +8,7 @@ import java.time.format.DateTimeFormatter;
 
 public class ProgenitorMapper {
 
-    private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+    private static final DateTimeFormatter formatter = DateTimeFormatter.ofPattern("MM/dd/yyyy");
 
     public static ProgenitorDTO toDTO(Progenitor progenitor) {
         ProgenitorDTO dto = new ProgenitorDTO();
